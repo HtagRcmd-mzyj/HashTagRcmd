@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Django look up dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form class="hashtag recommendation" method="GET" action="/crawling/">
+    <h1 class="htag rmcd">추천 해시태그</h1>
+    <ul>
+        <li>
+        {% for key, value in data.items %}
+                {{ key }} {{ value }}
+        {% endfor %}
+        </li>
+    </ul>
+</form>
+</body>
+</html>

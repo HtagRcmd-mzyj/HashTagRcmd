@@ -1,0 +1,13 @@
+.htag-items {
+  margin: 5px;
+  padding: 3px;
+  background-color:rgba(100, 255, 255, 0.2);
+  border-radius: 8px;
+}
+.htag-items input {
+  padding: 3px;
+}
+
+.ListHashtagStatus {
+  padding: 5px;
+}

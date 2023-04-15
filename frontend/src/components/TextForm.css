@@ -1,0 +1,35 @@
+.input-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 2rem;
+}
+.text-form {
+  font-size: 1.25rem;
+  padding: 1rem;
+  outline: none;
+  border: 3px dashed #22b8cf;
+}
+.text-form #input_text {
+  border: none;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  font-size: 15px;
+  resize: none;
+}
+.create-button {
+  width: 70%;
+  margin: auto;
+  padding: 2rem 2rem;
+  background: #22b8cf;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.create-button:hover {
+  background: #3bc9db;
+}
