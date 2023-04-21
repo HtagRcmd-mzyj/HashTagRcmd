@@ -25,13 +25,13 @@ services:
           - ./keywordExtractAPI:/srv/docker-server
           - ./log:/var/log/uwsgi
 
-    crawler:
-        container_name: crawling
-        build: ./crawlingAPI
-        ports:
-          - "8000:8000"
-        image: docker-server/crawling
-        restart: always
-        command: "python manage.py runserver 0.0.0.0:8000"
-        depends_on:
-          - django
+#    crawler:
+#        container_name: crawling
+#        build: ./crawlingAPI
+#        ports:
+#          - "8000:8000"
+#        image: docker-server/crawling
+#        restart: always
+#        command: "python manage.py runserver 0.0.0.0:8000"
+#        depends_on:
+#          - django

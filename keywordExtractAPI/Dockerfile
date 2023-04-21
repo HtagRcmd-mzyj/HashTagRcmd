@@ -14,9 +14,15 @@ RUN pip install --upgrade pip # pip 업글
 
 Run apt install default-jdk -y # java 설치
 
-RUN pip --no-cache-dir install -r requirements.txt # 필수 패키지 설치
-Run pip --no-cache-dir install tensorflow
 
+RUN apt-get update && apt-get install -y uwsgi
+
+RUN pip --no-cache-dir install -r requirements.txt # 필수 패키지 설치
+RUN pip --no-cache-dir install tensorflow
+RUN pip install keras --upgrade
+RUN pip install keras_applications --upgrade
+RUN pip install --upgrade segmentation-models
+RUN pip install --upgrade efficientnet
 #Run pip install mysqlclient #mysql
 
 EXPOSE 8000
