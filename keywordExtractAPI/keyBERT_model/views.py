@@ -31,9 +31,10 @@ class KeyBERTModelList(APIView):
     def post(self, request, *args, **kwargs):
         serializer = KeyBERTModelSerializer(
             data=request.data)
+        print("serializer : ", serializer)
         if serializer.is_valid():
             serializer.save()
-            #print(request.data)
+            print("request.data : ", request.data)
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         else:
             print('error', serializer.errors)
