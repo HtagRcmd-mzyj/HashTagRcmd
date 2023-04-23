@@ -25,5 +25,5 @@ RUN pip install --upgrade segmentation-models
 RUN pip install --upgrade efficientnet
 #Run pip install mysqlclient #mysql
 
-EXPOSE 8000
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+#EXPOSE 8000
+#CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]

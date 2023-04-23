@@ -29,9 +29,9 @@ services:
 #        container_name: crawling
 #        build: ./crawlingAPI
 #        ports:
-#          - "8000:8000"
+#          - "8080:8080"
 #        image: docker-server/crawling
 #        restart: always
-#        command: "python manage.py runserver 0.0.0.0:8000"
+#        command: "python manage.py runserver 0.0.0.0:8080"
 #        depends_on:
 #          - django

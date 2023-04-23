@@ -27,7 +27,7 @@ function Image() {
     console.log(formData) // FormData {}
     for (const keyValue of formData) console.log(keyValue);     //["img", File] File은 객체
     axios
-      .post("http://127.0.0.1:8000/image/image_model/saveimg/", formData, {
+      .post("http://127.0.0.1:80/image/image_model/saveimg/", formData, {
         headers: {
           'content-type': 'multipart/form-data'
         }
@@ -39,7 +39,7 @@ function Image() {
         console.log(imgPath);
 
         axios
-          .get("http://127.0.0.1:8000/image/image_model/saveimg/")
+          .get("http://127.0.0.1:80/image/image_model/saveimg/")
           .then((response) => console.log(response))
           .catch((error) => console.log(error))
       })
@@ -65,12 +65,12 @@ function Image() {
       })
   };
   const postKeyword = async () => {
-    let response1 = await axios.post("http://127.0.0.1:8000/image/image_model/");
+    let response1 = await axios.post("http://127.0.0.1:80/image/image_model/");
     return console.log(response1);
   }
   const getKeyword = async () => {
     try {
-      let res = await axios.get("http://127.0.0.1:8000/image/image_model/")
+      let res = await axios.get("http://127.0.0.1:80/image/image_model/")
       let arr = res.data
       setKeyword(arr[arr.length - 1].title);  //이안에서는 keyword값이 바뀌지 않음 나와서 실행됨.
       let response = await axios.post("http://127.0.0.1:8080/crawling/", {

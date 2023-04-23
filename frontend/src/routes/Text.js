@@ -17,23 +17,23 @@ function Text() {
   const ShowRcmdTopWord = async () => {
     setLoading(()=>true);
     try {
-      let res = await axios.post("http://127.0.0.1:8000/text/text_model/", {
+      let res = await axios.post("http://127.0.0.1:80/text/text_model/", {
         "input_text": document.getElementById("input_text").value,
         "hashtag": "none"
       });
       console.log(res);
       //id를 가져오기 위함
-      let res2 = await axios.get(`http://127.0.0.1:8000/text/text_model`);
+      let res2 = await axios.get(`http://127.0.0.1:80/text/text_model`);
       let arrId = res2.data
       let id = arrId[arrId.length - 1].id;
       const strId = id.toString();
       console.log(strId);
       console.log(res2);
       //
-      let res3 = await axios.put(`http://127.0.0.1:8000/text/text_model/${strId}/`);
+      let res3 = await axios.put(`http://127.0.0.1:80/text/text_model/${strId}/`);
       console.log(res3);
       //
-      let res4 = await axios.get(`http://127.0.0.1:8000/text/text_model`);
+      let res4 = await axios.get(`http://127.0.0.1:80/text/text_model`);
       console.log(res4);
       let arrHashtag = res4.data;
       setHashtag(arrHashtag[arrHashtag.length - 1].hashtag);
