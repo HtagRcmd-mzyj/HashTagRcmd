@@ -24,7 +24,7 @@
     1. 사용자가 이미지를 업로드합니다. (.jpg, .jpeg, .git 가능)
     2. `해시태그생성하기` 버튼을 클릭합니다.
         
-<img width="30%" alt="1_upload_image" src="https://user-images.githubusercontent.com/77240765/234430559-a80e479a-f43b-462b-b173-ff79575b3103.png">        
+<img alt="1_upload_image" src="https://user-images.githubusercontent.com/77240765/234430559-a80e479a-f43b-462b-b173-ff79575b3103.png">        
     3. 추천 해시태그가 체크박스와 함께 표시되면 사용자는 원하는 해시태그를 선택합니다.
     (지역명이 추출되었다면, 지역명과 키워드를 함께 붙인 해시태그도 함께 출력됩니다.)
         
