@@ -10,8 +10,9 @@
 - 데모 영상(텍스트) : https://youtu.be/mVVpacQGOwE 
 
 ### 사용 기술
-| 언어 | Python3, HTML/CSS, Javascript |
+|  |  |
 | --- | --- |
+| 언어 | Python3, HTML/CSS, Javascript |
 | 프레임워크 | Django, React |
 | 서버 | Amazon EC2 |
 | DB | MySQL |
