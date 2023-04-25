@@ -5,7 +5,8 @@
 ### 개요
 - 프로젝트명: 이미지와 텍스트 기반의 연관된 해시태그 추천 시스템 
 - 프로젝트 기간 : 2022.07 ~ 2022.10
-- 프로젝트 참여인원 : 2명(권용준, 류민지)
+- 프로젝트 참여인원 
+    | [류민지](https://github.com/mxnzx) | [권용준](https://github.com/dydwns99) |
 - 데모 영상(이미지) : https://youtu.be/8OCdgybDq0M
 - 데모 영상(텍스트) : https://youtu.be/mVVpacQGOwE 
 
