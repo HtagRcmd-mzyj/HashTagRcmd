@@ -24,23 +24,27 @@
     1. 사용자가 이미지를 업로드합니다. (.jpg, .jpeg, .git 가능)
     2. `해시태그생성하기` 버튼을 클릭합니다.
         
-        <img src=”./1_upload_image.png” width=”30%”>
+        <img src=”/1_upload_image.png” width=”30%”>
         
     3. 추천 해시태그가 체크박스와 함께 표시되면 사용자는 원하는 해시태그를 선택합니다.
     (지역명이 추출되었다면, 지역명과 키워드를 함께 붙인 해시태그도 함께 출력됩니다.)
         
-        <img src=“./3_pickHashtag_fullshot.png” width=”30%”>
+        <img src=“/3_pickHashtag_fullshot.png” width=”30%”>
         
     4. 복사버튼 및 드래그를 통해 해당 해시태그를 복사하여 원하는 곳에 붙일 수 있습니다.
         
-        <img src=“./4_pickHashTag.png” width=”30%”>
+        <img src=“/4_pickHashTag.png” width=”30%”>
 
     
 - 텍스트 등록
     1. 사용자가 글을 입력합니다.
     2. `해시태그생성하기` 버튼을 클릭합니다.
+        
+        <img src=“/2_1_write_text.png” width=”30%”>
     3. 추천 해시태그가 체크박스와 함께 표시되면 사용자는 원하는 해시태그를 선택합니다.  
     4. 복사버튼 및 드래그를 통해 해당 해시태그를 복사하여 원하는 곳에 붙일 수 있습니다.  
+    
+        <img src=“/2_2_pick_hashtag.png” width=”30%”>
 
 
 ### 실행방법
