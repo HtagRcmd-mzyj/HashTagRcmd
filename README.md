@@ -24,8 +24,9 @@
 - 메인 화면(이미지 등록)
    1. 사용자가 이미지를 업로드합니다. (.jpg, .jpeg, .git 가능)
    2. `해시태그생성하기` 버튼을 클릭합니다.
-        
-        <img alt="1_upload_image" src="https://user-images.githubusercontent.com/77240765/234430559-a80e479a-f43b-462b-b173-ff79575b3103.png">        
+
+        <img  alt="1_upload_image" src="https://user-images.githubusercontent.com/77240765/234433942-4ba81fb7-34dd-41b2-9fc6-36bebb3924f0.png">
+
    3. 추천 해시태그가 체크박스와 함께 표시되면 사용자는 원하는 해시태그를 선택합니다.
     (지역명이 추출되었다면, 지역명과 키워드를 함께 붙인 해시태그도 함께 출력됩니다.)
          
@@ -39,8 +40,7 @@
 - 텍스트 등록
     1. 사용자가 글을 입력합니다.
     2. `해시태그생성하기` 버튼을 클릭합니다.
-        
-        <img alt="2_1_write_text" src="https://user-images.githubusercontent.com/77240765/234430566-ecdfa237-9017-45ab-a7cf-7afd63455c38.png">
+        <img alt="2_1_write_text" src="https://user-images.githubusercontent.com/77240765/234434118-a6572c00-e432-4618-a56f-a0c934e8efe3.png">
     3. 추천 해시태그가 체크박스와 함께 표시되면 사용자는 원하는 해시태그를 선택합니다.  
     4. 복사버튼 및 드래그를 통해 해당 해시태그를 복사하여 원하는 곳에 붙일 수 있습니다.  
 
