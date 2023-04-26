@@ -19,10 +19,10 @@ def showTop(word):
         time.sleep(3)
         #id.pwd 입력
         _id = driver.find_element(By.NAME,"username")
-        _id.send_keys("mao.wncloset")
+        _id.send_keys("인스타그램아이디입력")
         time.sleep(2)
         _pwd = driver.find_element(By.NAME, 'password')
-        _pwd.send_keys("Mmqwer1234!!")
+        _pwd.send_keys("인스타그램비밀번호입력")
         time.sleep(2)
         #각 버튼 클릭
         #a = driver.find_element(By.CLASS_NAME, 'sqdOP.L3NKy.y3zKF')
