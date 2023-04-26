@@ -15,7 +15,7 @@
 | --- | --- |
 | 언어 | Python3, HTML/CSS, Javascript |
 | 프레임워크 | Django, React |
-| 서버 | Amazon EC2 |
+| 서버 | Amazon EC2, Docker |
 | DB | MySQL |
 | API 및 라이브러리 | Restful API, axois |
 
