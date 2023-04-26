@@ -28,11 +28,12 @@
         <img alt="1_upload_image" src="https://user-images.githubusercontent.com/77240765/234430559-a80e479a-f43b-462b-b173-ff79575b3103.png">        
    3. 추천 해시태그가 체크박스와 함께 표시되면 사용자는 원하는 해시태그를 선택합니다.
     (지역명이 추출되었다면, 지역명과 키워드를 함께 붙인 해시태그도 함께 출력됩니다.)
+         
+        <img alt="3_pickHashtag_fullshot" src="https://user-images.githubusercontent.com/77240765/234433568-7d27da3f-7d83-4318-906f-12818269367f.png">
         
-        <img alt="3_pickHashtag_fullshot" src="https://user-images.githubusercontent.com/77240765/234430570-dd8a4dca-1af6-4b9f-8e6d-558222e6408b.png">        
    4. 복사버튼 및 드래그를 통해 해당 해시태그를 복사하여 원하는 곳에 붙일 수 있습니다.
         
-        <img alt="4_pickHashTag" src="https://user-images.githubusercontent.com/77240765/234430572-dcb05e0b-14f6-44a9-b6a5-07069d199cc6.png">
+        <img width="60%" alt="4_pickHashTag" src="https://user-images.githubusercontent.com/77240765/234430572-dcb05e0b-14f6-44a9-b6a5-07069d199cc6.png">
 
     
 - 텍스트 등록
@@ -42,8 +43,8 @@
         <img alt="2_1_write_text" src="https://user-images.githubusercontent.com/77240765/234430566-ecdfa237-9017-45ab-a7cf-7afd63455c38.png">
     3. 추천 해시태그가 체크박스와 함께 표시되면 사용자는 원하는 해시태그를 선택합니다.  
     4. 복사버튼 및 드래그를 통해 해당 해시태그를 복사하여 원하는 곳에 붙일 수 있습니다.  
-    
-        <img alt="2_2_pick_hashtag" src="https://user-images.githubusercontent.com/77240765/234430565-56ae3def-3536-4a28-9da7-05077263f015.png">
+
+        <img  alt="2_2_pick_hashtag" src="https://user-images.githubusercontent.com/77240765/234433763-cf5734c4-ed74-47b3-a01f-fa69920f1c84.png">
 
 
 ### 📍 실행방법
