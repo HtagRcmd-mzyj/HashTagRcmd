@@ -7,8 +7,8 @@
 - 프로젝트 기간 : 2022.07 ~ 2022.10
 - 프로젝트 참여인원 
     | [권용준](https://github.com/dydwns99) | [류민지](https://github.com/mxnzx) |
-- 데모 영상(이미지) : https://youtu.be/8OCdgybDq0M
-- 데모 영상(텍스트) : https://youtu.be/mVVpacQGOwE 
+- 데모 영상(이미지) : https://youtu.be/mVVpacQGOwE
+- 데모 영상(텍스트) : https://youtu.be/8OCdgybDq0M
 
 ### 📍 사용 기술
 |  |  |
